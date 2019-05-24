@@ -7,9 +7,9 @@ class QuizQuestion extends Component {
     return (
       <main>
         <section>
-          <p>
+          <div className="QuizQuestion">
             {this.props.quiz_question.instruction_text}
-          </p>
+          </div>
         </section>
         <section className="buttons">
           <ul>
